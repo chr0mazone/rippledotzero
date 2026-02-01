@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('./PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color:#000000;
+    background-image:url('sitebg.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center top;
+    text-align:center; 
+    color:#ffffff;
+    font-family:arial;
+}
+
+#flash {
+    height:480px;
+    width:640px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:163px;
+}
+
+#links {
+    margin: 0; padding: 0;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    /* z-index: 9999; */
+}
+
+a {
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#757575;
+}
+
+/* ================================== CUSTOM ================================== */
+
+ruffle-player, ruffle-embed, ruffle-object {
+    --splash-screen-background: #261d22;
+}
+
+.btn{
+    position: absolute;
+
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+    image-rendering: pixelated;
+}
+
+#tap {
+    bottom: 185px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: #ffe1d6;
+    /* background: rgba(0, 0, 0, 0.35); */
+    background: rgb(32, 1, 1);
+
+    padding: 10px 14px;
+
+    border: 2px solid #ff9b7a;
+    box-shadow:
+      0 0 0 2px #3b0f0a,
+      inset 0 -2px 0 rgba(0,0,0,0.4);
+}
+
+#source {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+
+    background: rgba(0, 10, 20, 0.45);
+    padding: 8px 10px;
+
+    border: 2px solid #6bbcff;
+    box-shadow: 6px 6px 0px 0px #356f9e;
+
+    transition:
+        transform 0.12s steps(2, end),
+        box-shadow 0.12s steps(2, end);
+    
+    cursor: pointer;
+}
+
+#source:hover {
+  transform: translate(6px, 6px);
+  box-shadow: none;
+}
+
+#source a {
+    color: #cfe9ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
