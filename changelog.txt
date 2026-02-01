@@ -1,0 +1,84 @@
+Version:	1.2.1 (Google Analytics Crash)
+Date:		27/4 2016
+
+* Fixed a null pointer in the google analytics library that only occured if you entered the game from a google search and that made the game crash on startup
+
+_____________________________________________
+
+
+
+Version:	1.2.0 (Happy Birthday, 2 year, remove ads)
+Date:		28/6 2015
+
+* Removed all ads completely
+
+_____________________________________________
+
+
+
+Version:	1.1.0 (Goodbye Mochi Media)
+Date:		29/3 2014
+
+* Mochi is closing down all their services on march 31 (in two days). This version har removed all mochi dependencies.
+* Use Google Analytics instead of mochi analytics
+* Built custom bootloader/container to replace mochi version control component. This is a swf that loads the actual com.rippledotzero.game.
+* Implemented FGLads instead of mochiads.
+
+
+_____________________________________________
+
+Version:	1.0.4 (Adult Swim)
+Date:		3/11 2013
+
+* Added Adult Swim specific implementations (not present in non-adult swim versions)
+* Bug fix in level "The Terrarium Area 2" where cut-off area made 100% pickup completion impossible
+* Added extra easter egg in "The Terrarium Area 2"
+
+
+_____________________________________________
+
+Version: 	1.0.3 (Kongregate release)
+Date: 		6/7 2013
+
+* Added Kongregate API support, with badges for init, ending, good ending and all ripples rescued
+* Fixed bug with ranking in endscreen (spikes and spawning enemies such as bullets counted as enemies). Enemy count now set at parse-time.
+* Killing all particles on loadState (got weird if dying at the same time as hitting a 10-pickup)
+* Fixed bug with loader bar not displaying when loading levels
+* Mute now works in splash screen and ending sequence
+* A few fixes in restore-state on boss on level "One Final Thing"
+* Level fixes
+
+
+
+____________________________________________
+
+Version: 	1.0.2
+Date: 		29/6 2013
+
+* Handle saving progress if user has turned Local Storage off in flash player settings
+* Fixed main menu bugging out if playing again after watching com.rippledotzero.game ending
+* Links to external pages works again (did not work in credits-screen). Mutes and unmutes the com.rippledotzero.game on exit/enter focus.
+* Main menu froze, and sound was muted, when selecting the shop link
+* Some level fixes: broken floor, areas where you got stuck, incorrect spelling in text boxes, removed some secrets in chrystal lake 1.
+
+
+
+____________________________________________
+
+Version: 	1.0.1 (initial release)
+Date:		28/6 2013
+
+This was the version initially released!
+* Adding keyboard focus back to the com.rippledotzero.game after the ads has been clicked
+
+
+
+
+____________________________________________
+
+Version: 	1.0.0
+Date:		28/6 2013
+
+* Bumped version number to 1.0.0
+
+
