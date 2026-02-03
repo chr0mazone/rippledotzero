@@ -41,9 +41,7 @@ No ownership is claimed over any original material.
 
 ## Ending cutscene
 
-<video controls>
-  <source src="./readme/rdz_ending.mp4" type="video/mp4">
-</video>   
+https://github.com/user-attachments/assets/2028d8ea-413f-475d-ad4c-ffcf939cf33a
 
 ## External Links
 
